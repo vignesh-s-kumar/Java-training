@@ -1,0 +1,31 @@
+public class Main
+{
+    public static void main(String args[])
+    {
+        String a="Vicky_20";
+        int uppercasecount=0;
+        int lowercasecount=0;
+        int specialcount=0;
+        int numbercount=0;
+        for (char ch : input.toCharArray())
+        {
+            if(ch>='A' && ch<='Z')
+            {
+                uppercasecount++;
+            }
+            else if(ch>='a' && ch<='z')
+            {
+                lowercasecount++;
+            }
+            else if (ch>='0' && ch<='9')
+            {
+                numbercount++;
+            }
+            else
+            {
+                specialcount++;
+            }
+            
+        }
+    }
+}
