@@ -10,7 +10,7 @@ public class Main
         {
             System.out.println("Enter the names and marks of"+(i+1));
             marks[i]=q.nextInt();
-            q.next();
+            q.nextLine();
             names[i]=q.nextLine();
         }
         System.out.println("--------------------");
